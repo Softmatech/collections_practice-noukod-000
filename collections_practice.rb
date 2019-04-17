@@ -9,4 +9,5 @@ def sort_array_asc(array)
     1
   end
 end
+array
 end
