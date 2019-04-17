@@ -39,3 +39,7 @@ end
 def add_s(array)
   array.each_with_index.collect {|element,index| element = index == 1 ? element : element << "S"}
 end
+
+def sum_array(array)
+    array.reduce(:+)
+end
