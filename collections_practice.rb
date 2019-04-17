@@ -37,7 +37,7 @@ def find_a(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect {|element,index| element = index == 1 ? element : element << "S"}
+  array.each_with_index.collect {|element,index| element = index == 1 ? element : element << "s"}
 end
 
 def sum_array(array)
