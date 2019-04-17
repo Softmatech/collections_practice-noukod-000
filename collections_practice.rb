@@ -8,7 +8,7 @@ end
 
 def sort_array_desc
   array.sort do |b, a|
-    a <=> b
+    b <=> a
 end
 array.sort
 end
