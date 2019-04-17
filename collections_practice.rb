@@ -7,7 +7,7 @@ array.sort
 end
 
 def sort_array_desc
-  array.sort do |a, b|
+  array.sort do |b, a|
     a <=> b
 end
 array
