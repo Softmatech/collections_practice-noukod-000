@@ -10,5 +10,5 @@ def sort_array_desc
   array.sort do |b, a|
     a <=> b
 end
-array
+array.sort
 end
