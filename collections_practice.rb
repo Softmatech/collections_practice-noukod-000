@@ -12,3 +12,10 @@ def sort_array_desc(array)
 end
 array.sort.reverse
 end
+
+def sort_array_char_count(array)
+  rray.sort do |a, b|
+    a.length <=> b.length
+end
+array.sort
+end
