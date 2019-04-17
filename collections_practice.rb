@@ -23,4 +23,5 @@ def sort_array_char_count(array)
     1
   end
 end
+  array.sort
 end
