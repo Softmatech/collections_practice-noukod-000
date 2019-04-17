@@ -11,6 +11,5 @@ def sort_array_desc
   array.sort do |a, b|
     a <=> b
 end
-new_array = array.sort
-new_array.reverse
+array.sort.reverse
 end
