@@ -31,3 +31,11 @@ end
 def kesha_maker(array)
   array.each{|name| name[2] = "$"}
 end
+
+def find_a(array)
+    array.select{|a| a.start_with?("a")}
+end
+
+def add_s(array)
+  array.each_with_index.collect {|element,index| element = index == 1 ? element : element << "S"}
+end
